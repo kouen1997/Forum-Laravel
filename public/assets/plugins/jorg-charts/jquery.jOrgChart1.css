@@ -1,0 +1,68 @@
+/* Basic styling */
+/* Draw the lines */
+.orgChart {
+    text-align: center;
+    position: relative;
+    overflow: scroll;
+}
+
+.jOrgChart {
+    display: inline-block;
+    min-height: auto;
+    margin: 25px 0px;
+}
+
+.jOrgChart .line {
+    height: 20px;
+    width: 2px;
+}
+
+.jOrgChart .down {
+    background-color: #515763;
+    margin: 0px auto;
+}
+
+.jOrgChart .top {
+    border-top: 2px solid #515763;
+}
+
+.jOrgChart .left {
+    border-right: 2px solid #515763;
+}
+
+.jOrgChart .right {
+    border-left: 2px solid #515763;
+}
+
+/* node cell */
+.jOrgChart td {
+    text-align: center;
+    vertical-align: top;
+    padding: 0;
+}
+
+/* The node */
+.jOrgChart .node {
+    display: inline-block;
+    width: 240px!important;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.jOrgChart .node .org_node {
+    width: inherit;
+    height: inherit;
+}
+
+
+/*.orgChart .zoom {
+    position: absolute;
+    top: 0;
+    left: 12px;
+}
+*/
+/*.orgChart .zoom span.zoom_control {
+    font-size: 16px;
+    color: #515763;
+    font-weight: bold;
+}*/
